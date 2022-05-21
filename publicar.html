@@ -27,14 +27,14 @@
 			<form>
 				<h2>Datos de la publicación</h2>
 
-				<label>Comunidad donde debe publicarse *
+				<label>Comunidad donde debe publicarse *</label>
 					 <select>
 						<option value="docencia">Docencia</option>
 						<option value="institucional">Institucional</option>
 						<option value="investigacion">Investigación</option>
 						<option value="datos">Datos</option>
 					 </select>
-				</label>
+
 
 				 <label for="nombre-del-autor">Nombre del autor *</label>
 				 <input type="text" name="nombre-del-autor" id="nombre-del-autor" placeholder="Escribe el nombre del autor" required pattern="[A-Za-z]+" minlength="2" maxlength="64">
@@ -54,7 +54,7 @@
 
 				 <div class="radio">
 					<p>Editorial</p>
-					<input type="radio" name="editorial" id="editorial" value="uoc" checked>
+					<input type="radio" name="editorial" id="editorial" value="uoc" checked/>
 					<label for="editorial">Universidad Oberta de Cataluña</label>
 				 </div>
 
@@ -113,63 +113,63 @@
 				 <div class="radio">
 					 <p>Por favor selecciones una de las dos opciones siguientes: </p>
 					 <div>
-						<input type="radio" name="genero" id="hombre" value="hombre" >
+						<input type="radio" name="genero" id="hombre" value="hombre"/>
 						<label for="hombre">Hombre</label>
 					 </div>
 					 <div>
-						<input type="radio" name="genero" id="mujer" value="mujer" >
+						<input type="radio" name="genero" id="mujer" value="mujer"/>
 						<label for="mujer">Mujer</label>
 					 </div>
 				 </div>
 				 <div class="radio">
 					 <p>Tipo de documento de indentidad </p>
 					 <div>
-						<input type="radio" name="documento" id="nif" value="nif" >
+						<input type="radio" name="documento" id="nif" value="nif"/>
 						<label for="nif">NIF</label>
 					 </div>
 					 <div>
-						<input type="radio" name="documento" id="nie" value="nie" >
+						<input type="radio" name="documento" id="nie" value="nie"/>
 						<label for="nie">NIE</label>
 					 </div>
 					 <div>
-						<input type="radio" name="documento" id="pass" value="pass" >
+						<input type="radio" name="documento" id="pass" value="pass"/>
 						<label for="pass">PASS</label>
 					 </div>
 				 </div>
 
 				 <label for="numero-documento">Número de documento *</label>
-				 <input type="text" name="numero-documento" id="numero-documento" placeholder="Escribe el número de documento elegido" required pattern="[A-Za-z]+" minlength="2" maxlength="128">
+				 <input type="text" name="numero-documento" id="numero-documento" placeholder="Escribe el número de documento elegido" required pattern="[A-Za-z]+" minlength="2" maxlength="128"/>
 
 				 <label for="email">Correo electrónico *</label>
-				 <input type="email" name="email" id="email" placeholder="Escribe el correo electrónico" required>
+				 <input type="email" name="email" id="email" placeholder="Escribe el correo electrónico" required/>
 
 				 <label for="telefono">Teléfono (opcional)</label>
-				 <input type="tel" name="telefono" id="telefono" placeholder="Escribe el teléfono" pattern="[0-9]+" minlength="9" maxlength="10">
+				 <input type="tel" name="telefono" id="telefono" placeholder="Escribe el teléfono" pattern="[0-9]+" minlength="9" maxlength="10"/>
 
 				 <div class="radio">
 					 <p>Idioma para la respuesta *</p>
 					 <div>
-						<input type="radio" name="idioma-respuesta" id="castellano" value="castellano" >
+						<input type="radio" name="idioma-respuesta" id="castellano" value="castellano"/>
 						<label for="castellano">Castellano</label>
 					 </div>
 					 <div>
-						<input type="radio" name="idioma-respuesta" id="catalan" value="calatan" >
+						<input type="radio" name="idioma-respuesta" id="catalan" value="calatan"/>
 						<label for="catalan">Catalán</label>
 					 </div>
 				 </div>
 				 <hr>
 
 				 <div>
-				  <input type="checkbox" name="politica-de-privacidad" id="politica-de-privacidad" required>
+				  <input type="checkbox" name="politica-de-privacidad" id="politica-de-privacidad" required/>
 				  <label for="politica-de-privacidad">He leído y acepto la política de privacidad y el aviso legal *</label>
 				 </div>
 
 				 <div>
-				  <input type="checkbox" name="ser-informado" id="ser-informado">
+				  <input type="checkbox" name="ser-informado" id="ser-informado"/>
 				  <label for="ser-informado">Dese ser informado sobre las nuevas incorporaciones al repositorio</label>
 				 </div>
 
-				 <input type="submit" name="enviar" class="boton">
+				 <input type="submit" name="enviar" class="boton"/>
 			</form>
 
 		</section>
